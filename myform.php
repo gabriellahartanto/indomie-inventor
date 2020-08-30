@@ -1,87 +1,87 @@
 <style>
-@font-face {
-font-family: gothambold;
-src: url('gothambold.ttf');
-}
-@font-face {
-font-family: gothamlight;
-src: url('gothamlight.ttf');
-}
-@font-face {
-font-family: gothammediumitalic;
-src: url('gothammediumitalic.ttf');
-}
-@font-face {
-font-family: gothambook;
-src: url('gothambook.ttf');
-}
-@font-face {
-font-family: gothamblack;
-src: url('gothamblack.otf');
-}
-@font-face {
-font-family: gothambolditalic;
-src: url('gothambolditalic.ttf');
-}
-@font-face {
-font-family: gothammedium;
-src: url('gothammedium.ttf');
-}
+  @font-face {
+  font-family: gothambold;
+  src: url('gothambold.ttf');
+  }
+  @font-face {
+  font-family: gothamlight;
+  src: url('gothamlight.ttf');
+  }
+  @font-face {
+  font-family: gothammediumitalic;
+  src: url('gothammediumitalic.ttf');
+  }
+  @font-face {
+  font-family: gothambook;
+  src: url('gothambook.ttf');
+  }
+  @font-face {
+  font-family: gothamblack;
+  src: url('gothamblack.otf');
+  }
+  @font-face {
+  font-family: gothambolditalic;
+  src: url('gothambolditalic.ttf');
+  }
+  @font-face {
+  font-family: gothammedium;
+  src: url('gothammedium.ttf');
+  }
 
-h1{
-font-family: 'gothambold';
-font-size: 50px;
-color: #F9FF7E;
-text-align: center;
-}
-h2{
-font-family: 'gothamlight';
-font-size: 25px;
-color: gray;
-text-align: center;
-}
-p{
-font-family: 'gothammediumitalic';
-font-size: 18px;
-text-align: center;
-color: gray;
-}
-.p1{
-font-family: 'gothamlight';
-font-size: 15px;
-text-align: center;
-color: gray;
-}
-.p2{
-font-family: 'gothambook';
-color: gray;
-}
-.p3{
-font-family: 'gothamlight';
-font-size: 13px;
-}
-.p4{
-font-family: 'gothamblack';
-font-size: 22px;
-color: #FA643F;
-}
-.p5{
-font-family: 'gothambolditalic';
-font-size: 21px;
-}
-.p6{
-font-family: 'gothammedium';
-font-size: 23px;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-mark {
-  background-color: #FFD0A2;
+  h1{
+  font-family: 'gothambold';
+  font-size: 50px;
+  color: #F9FF7E;
+  text-align: center;
+  }
+  h2{
+  font-family: 'gothamlight';
+  font-size: 25px;
   color: gray;
-}
+  text-align: center;
+  }
+  p{
+  font-family: 'gothammediumitalic';
+  font-size: 18px;
+  text-align: center;
+  color: gray;
+  }
+  .p1{
+  font-family: 'gothamlight';
+  font-size: 15px;
+  text-align: center;
+  color: gray;
+  }
+  .p2{
+  font-family: 'gothambook';
+  color: gray;
+  }
+  .p3{
+  font-family: 'gothamlight';
+  font-size: 13px;
+  }
+  .p4{
+  font-family: 'gothamblack';
+  font-size: 22px;
+  color: #FA643F;
+  }
+  .p5{
+  font-family: 'gothambolditalic';
+  font-size: 21px;
+  }
+  .p6{
+  font-family: 'gothammedium';
+  font-size: 23px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  mark {
+    background-color: #FFD0A2;
+    color: gray;
+  }
 </style>
 
 
