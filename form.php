@@ -209,31 +209,33 @@
 
 
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "mywebsite";
-$conn = mysqli_connect($servername, $username, $password, $database);
-if (!$conn) { die("Connection failed: " . mysqli_connect_error()); }
-    if($_POST){
-        $base = $_POST["base"];
-        $width = $_POST["width"];
-        $type = $_POST["type"];
-        $flavor = $_POST["flavor"];
-        $toppings = $_POST["toppings"];
-        $protein = $_POST["protein"];
-        $color = $_POST["color"];
-        $selectcolor = $_POST["mycolor"];
-        $name = $_POST["mytext"];
-        $printname = $_POST["myselect"];
-        $email = $_POST["myemail"];
-        $datee = $_POST["mydate"];
-       
-        $sql = "INSERT INTO indomieinventor (base, width, type, flavor, toppings, protein, color, selectcolor, name, printname, email, datee) VALUES ('$base', '$width', '$type','$flavor','$toppings','$protein','$color','$selectcolor','$name','$printname','$email','$datee')";
-        if (mysqli_query($conn, $sql)) {
-        echo "New record created successfully";
-        } else {
-        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-        }      
-    }
+  $servername = "localhost";
+  $username = "root";
+  $password = "";
+  $database = "mywebsite";
+  $conn = mysqli_connect($servername, $username, $password, $database);
+  if (!$conn) { 
+    die("Connection failed: " . mysqli_connect_error()); 
+  }
+  if($_POST) {
+    $base = $_POST["base"];
+    $width = $_POST["width"];
+    $type = $_POST["type"];
+    $flavor = $_POST["flavor"];
+    $toppings = $_POST["toppings"];
+    $protein = $_POST["protein"];
+    $color = $_POST["color"];
+    $selectcolor = $_POST["mycolor"];
+    $name = $_POST["mytext"];
+    $printname = $_POST["myselect"];
+    $email = $_POST["myemail"];
+    $datee = $_POST["mydate"];
+    
+    $sql = "INSERT INTO indomieinventor (base, width, type, flavor, toppings, protein, color, selectcolor, name, printname, email, datee) VALUES ('$base', '$width', '$type','$flavor','$toppings','$protein','$color','$selectcolor','$name','$printname','$email','$datee')";
+    if (mysqli_query($conn, $sql)) {
+      echo "New record created successfully";
+    } else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }      
+  }
 ?>
